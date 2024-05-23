@@ -1,0 +1,25 @@
+.navbar-link {
+  display: block;
+  padding: 10px 15px;
+  color: #333; /* Default text color */
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+}
+
+.navbar-link:hover {
+  background-color: #f0f0f0; /* Background color on hover */
+  color: #555; /* Text color on hover */
+}
+
+.learn-more-button  {
+  background-color: #2B2D42;
+  color: #FFFFFF;
+  font-size: 0.9rem;
+  font-weight: 600;
+  /* Media query for mobile devices */
+  @media screen and (max-width: 700px) {
+    font-size: 0.8rem; /* Increase margin on smaller screens */
+
+  }
+}

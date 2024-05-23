@@ -1,0 +1,66 @@
+.courses {
+  margin-top: 5vw;
+}
+    /* Media query for smaller devices */
+    @media screen and (max-width: 767px) {
+      .courses {
+        margin-top: 25vw;
+      }
+    }
+
+.drop-btn {
+  background-color: #EF233C;
+  color: #FFFFFF;
+}
+
+.drop-btn:hover {
+  background-color: #D90429;
+  transform: scale(1.01); /* Scale the button slightly on hover */
+  transition: ease-in-out 0.2s; /* Add a smooth transition */
+}
+
+.cards-grid {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.page-div {
+  gap: 0;
+}
+
+.reset-button {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.search-button {
+  background-color: #EF233C;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.course-button {
+  background-color: #2B2D42;
+  color: #FFFFFF;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.card {
+  border-radius: 16px;
+}
+
+.card-course-image {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.badges {
+  margin-top: 0vw;
+  margin-bottom: 0.5vw;
+}
+
+.card-div {
+  padding-top: 1vw;
+}

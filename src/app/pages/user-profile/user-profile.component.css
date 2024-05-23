@@ -1,0 +1,22 @@
+.user-card {
+  margin-top: 20vw;
+
+  /* Media query for mobile devices */
+  @media screen and (max-width: 700px) {
+    margin-top: 50vw; /* Increase margin on smaller screens */
+  }
+}
+
+.name {
+  font-size: 1vw;
+    @media screen and (max-width: 768px) {
+    font-size: 1rem; /* Increase margin on smaller screens */
+  }
+}
+
+.email {
+  font-size: 0.8vw;
+    @media screen and (max-width: 768px) {
+    font-size: 0.8rem; /* Increase margin on smaller screens */
+  }
+}

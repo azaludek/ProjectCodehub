@@ -1,0 +1,20 @@
+.page {
+  padding-top: 3vw;
+}
+
+.log-in-button {
+  background-color: #2B2D42;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.sign-in-account-section {
+  /* Your existing styles */
+  margin-top: 20px; /* Default margin */
+
+  /* Media query for mobile devices */
+  @media screen and (max-width: 700px) {
+    margin-top: 45vw; /* Increase margin on smaller screens */
+  }
+}
